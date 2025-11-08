@@ -164,7 +164,21 @@ button:hover, button:focus {
 .info-section {
     padding: 120px 0;
 }
-
+.icon-antenna {
+border: 1px solid var(--light-slate);
+border-radius: 4px;
+background-color: #F4F4FD;
+padding: 24px 100px;
+}
+.icon-clock{
+    border-radius: 4px;
+}
+.icon-diagram{
+    border-radius: 4px;
+}
+.icon-astronaut{
+    border-radius: 4px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -252,6 +266,33 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center; 
+}
+.icon-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 8px;
+
+   
+}
+.icon {
+  fill: #F4F4FD;
+     
+  
+   
+}
+.icon-link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+   display: flex;
+   
+   
 }
 
 .our-team-block {
