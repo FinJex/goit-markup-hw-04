@@ -75,6 +75,23 @@ span {
     align-items: center;
   gap: 40px;
 }
+.studio {
+   position: relative;
+}
+
+.studio::after {
+    content: "";
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+
+}
+
 
 .a-studio {
     display: block;
@@ -123,6 +140,11 @@ a:hover, a:focus {
     flex-direction: column;
     align-items: center;
     padding: 188px 0;
+
+    
+    
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+                                       
 }
 
 .main-head {
@@ -163,22 +185,9 @@ button:hover, button:focus {
 
 .info-section {
     padding: 120px 0;
+    align-items: baseline;
 }
-.icon-antenna {
-border: 1px solid var(--light-slate);
-border-radius: 4px;
-background-color: #F4F4FD;
-padding: 24px 100px;
-}
-.icon-clock{
-    border-radius: 4px;
-}
-.icon-diagram{
-    border-radius: 4px;
-}
-.icon-astronaut{
-    border-radius: 4px;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -219,7 +228,23 @@ gap: 24px;
 .li-info-section {
     width: calc((100% - 72px) / 4);
 }
+.rectangle{
+position: relative;
+border: 1px solid;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background-color: #F4F4FD;
+margin-bottom: 8px;
+gap: 24px;
+}
+.icon-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
 /* #endregion section2 */
 
 /* #region section3 */
@@ -371,6 +396,8 @@ margin-bottom: 72px;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+     max-height: 312px;
+     position: relative;
 }
 
 .logo-footer {
@@ -401,5 +428,50 @@ margin-bottom: 72px;
     margin-top: 16px;
 }
 
- 
+ .icon-flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 8px;
+    position: absolute;
+    left: 540px;
+    top: 140px;
+    
+   
+    
+   
+    
+ }
+ .icon-description-footer {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+position: absolute;
+left: 540px;
+top: 100px;
+
+ }
+
+.icon-footer {
+  fill: #F4F4FD;
+     
+  
+   
+}
+.icon-link-footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+   display: flex;
+   
+   
+   
+}
 /* #endregion footer */
