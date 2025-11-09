@@ -77,6 +77,8 @@ span {
 }
 .studio {
    position: relative;
+   padding: 24px 0;
+   display: block;
 }
 
 .studio::after {
@@ -87,8 +89,7 @@ span {
     background-color: #404BBF;
     display: flex;
     position: absolute;
-    left: 0;
-    bottom: -24px;
+    bottom: -1px;
 
 }
 
