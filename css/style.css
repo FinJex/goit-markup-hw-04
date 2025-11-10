@@ -304,6 +304,9 @@ font-weight: 400;
     color: #434455;
     text-align: center; 
 }
+.icon-ul {
+    display: flex;
+}
 .icon-flex {
     display: flex;
     justify-content: center;
